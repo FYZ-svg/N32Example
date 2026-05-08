@@ -1,0 +1,87 @@
+T0984 000:161.478   SEGGER J-Link V8.16 Log File
+T0984 000:161.661   DLL Compiled: Feb 26 2025 12:07:26
+T0984 000:161.668   Logging started @ 2026-04-24 11:28
+T0984 000:161.675   Process: D:\keilMDK\UV4\UV4.exe
+T0984 000:161.687 - 161.681ms 
+T0984 000:161.700 JLINK_SetWarnOutHandler(...)
+T0984 000:161.708 - 0.009ms 
+T0984 000:161.718 JLINK_OpenEx(...)
+T0984 000:166.187   Firmware: J-Link V9 compiled Dec  8 2023 20:16:22
+T0984 000:166.650   Firmware: J-Link V9 compiled Dec  8 2023 20:16:22
+T0984 000:166.762   Decompressing FW timestamp took 101 us
+T0984 000:172.294   Hardware: V9.70
+T0984 000:172.315   S/N: 602712980
+T0984 000:172.324   OEM: SEGGER
+T0984 000:172.334   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T0984 000:172.844   Bootloader: (FW returned invalid version)
+T0984 000:173.417   TELNET listener socket opened on port 19021
+T0984 000:173.501   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0984 000:173.642   WEBSRV Webserver running on local port 19080
+T0984 000:173.721   Looking for J-Link GUI Server exe at: D:\keilMDK\ARM\Segger\JLinkGUIServer.exe
+T0984 000:173.866   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink_V640\\JLinkGUIServer.exe
+T0984 000:474.364   Failed to connect to J-Link GUI Server.
+T0984 000:474.449 - 312.709ms returns "O.K."
+T0984 000:474.499 JLINK_GetEmuCaps()
+T0984 000:474.527 - 0.020ms returns 0xB9FF7BBF
+T0984 000:474.558 JLINK_TIF_GetAvailable(...)
+T0984 000:474.805 - 0.250ms 
+T0984 000:474.846 JLINK_SetErrorOutHandler(...)
+T0984 000:474.865 - 0.018ms 
+T0984 000:474.926 JLINK_ExecCommand("ProjectFile = "D:\Nations.N32G430_Library.2.1.0\Nations.N32G430_Library.2.1.0\projects\n32g430_EVAL\examples\GPIO\IORemap\MDK-ARM\JLinkSettings.ini"", ...). 
+T0984 000:490.694 - 15.773ms returns 0x00
+T0984 000:490.721 JLINK_ExecCommand("Device = N32G430C8L7", ...). 
+T0984 000:490.907   Looking for J-Link GUI Server exe at: D:\keilMDK\ARM\Segger\JLinkGUIServer.exe
+T0984 000:490.944   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink_V640\\JLinkGUIServer.exe
+T0984 000:798.021   Failed to connect to J-Link GUI Server.
+T0984 000:804.487   ERROR: Failed to set device
+T0984 000:804.516 - 313.789ms returns 0xFFFFFFFF
+T0984 000:804.591 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0984 000:804.603   ERROR: Unknown command
+T0984 000:804.609 - 0.008ms returns 0x01
+T0984 000:804.616 JLINK_GetHardwareVersion()
+T0984 000:804.621 - 0.004ms returns 97000
+T0984 000:804.628 JLINK_GetDLLVersion()
+T0984 000:804.633 - 0.005ms returns 81600
+T0984 000:804.640 JLINK_GetOEMString(...)
+T0984 000:804.648 JLINK_GetFirmwareString(...)
+T0984 000:804.654 - 0.006ms 
+T0984 000:804.663 JLINK_GetDLLVersion()
+T0984 000:804.667 - 0.004ms returns 81600
+T0984 000:804.675 JLINK_GetCompileDateTime()
+T0984 000:804.681 - 0.005ms 
+T0984 000:804.689 JLINK_GetFirmwareString(...)
+T0984 000:804.694 - 0.005ms 
+T0984 000:804.701 JLINK_GetHardwareVersion()
+T0984 000:804.707 - 0.005ms returns 97000
+T0984 000:804.712 JLINK_GetSN()
+T0984 000:804.719 - 0.006ms returns 602712980
+T0984 000:804.724 JLINK_GetOEMString(...)
+T0984 000:804.735 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0984 000:805.261 - 0.527ms returns 0x00
+T0984 000:805.282 JLINK_HasError()
+T0984 000:805.303 JLINK_SetSpeed(5000)
+T0984 000:805.385 - 0.082ms 
+T0984 000:805.748 JLINK_HasError()
+T0984 000:805.763 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0984 000:805.768 - 0.005ms returns JLINKARM_RESET_TYPE_NORMAL
+T0984 000:805.773 JLINK_Reset()
+T0984 000:805.904   
+  ***** Error: 
+T0984 000:805.911   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T0984 000:805.916 - 0.143ms 
+T0984 000:805.926 JLINK_GetId()
+T0984 000:806.104   
+  ***** Error: 
+T0984 000:806.110   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T0984 000:806.115 - 0.188ms returns 0x00000000
+T0984 000:806.128 JLINK_GetId()
+T0984 000:806.294   
+  ***** Error: 
+T0984 000:806.300   No CPU core or target device has been selected. Please make sure at least the core J-Link shall connect to, is selected.
+T0984 000:806.345 - 0.216ms returns 0x00000000
+T0984 000:810.355 JLINK_GetFirmwareString(...)
+T0984 000:810.371 - 0.016ms 
+T0984 002:014.895 JLINK_Close()
+T0984 002:027.140 - 12.244ms
+T0984 002:027.162   
+T0984 002:027.166   Closed
